@@ -21,10 +21,10 @@ $ npm install -g browserify
 $ browserify main.js -o bundle.js
 ```
 
-Check out the details on [Codrops]()
+Check out the details on [Codrops](https://tympanus.net/codrops/2018/09/16/freebie-libre-web-app-template/)
 
 ## Live Demo
-👋 [Libre Live Demo]()
+👋 [Libre Live Demo](https://tympanus.net/Freebies/libre/)
 
 ## Credits
 - [Browserify](http://browserify.org/)

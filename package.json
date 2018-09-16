@@ -1,0 +1,27 @@
+{
+  "name": "codrops-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/amiechen/codrops-library.git"
+  },
+  "author": "Amie Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/amiechen/codrops-library/issues"
+  },
+  "homepage": "https://gitlab.com/amiechen/codrops-library#README",
+  "devDependencies": {
+    "tailwindcss": "^0.6.4"
+  },
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "imagesloaded": "^4.1.4",
+    "tippy.js": "^2.5.4"
+  }
+}

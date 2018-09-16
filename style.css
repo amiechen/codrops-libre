@@ -1,0 +1,164 @@
+ @tailwind preflight;
+ @tailwind components;
+
+.max-width-tiny {
+  max-width: 7rem;
+}
+
+.libre-bg-grey {
+  background-color: #C4CDD5;
+}
+
+.libre-bg-yellow {
+  background-color: #FFC48B;
+}
+
+.libre-bg-pink {
+  background-color: #FDAC9A;
+}
+
+.bg-indigo-medium {
+    background-color: #38406C;
+}
+
+.bg-grey-lighter-2 {
+  background-color: #EAF1F7;
+}
+
+.py-1\/2 {
+  padding-top: .15rem;
+  padding-bottom: .15rem;
+}
+
+.transition-normal {
+  transition: all 200ms ease;
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.leading-medium {
+  leading: 1.3;
+}
+
+.js-tab:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: -2px;
+  opacity: 0;
+  content: "";
+  height: 2px;
+  background-color: #6574CD;
+}
+
+.js-tab:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.js-tab-pane {
+  display: none;
+}
+
+.js-tab.active:before {
+  opacity: 1;
+  left: 0;
+  right: 0;
+}
+
+.js-tab-pane.active {
+  display: flex;
+}
+
+#sidenav-icon.rotate {
+  transform-origin: center center;
+  transform: rotate(180deg);
+  transition: transform .3s ease-in-out;
+}
+
+.hover\:brighter:hover {
+  filter: brightness(110%);
+}
+
+.hover\:translate-y-1:hover {
+  transform: translateY(-1px);
+}
+
+.active\:translate-y-1:active {
+  transform: translateY(1px);
+}
+
+.tippy-tooltip {
+  padding: 1rem;
+  text-align: left;
+}
+
+@responsive {
+  .-order-1 {
+    order: -1;
+  }
+  .order-0 {
+    order: 0;
+  }
+  
+  .order-1 {
+    order: 1;
+  }
+  
+  .order-2 {
+    order: 2;
+  }
+}
+
+.toggle {
+  position: relative;
+}
+
+.toggle span,
+.toggle span:before,
+.toggle span:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 18px;
+  border-radius: 2px;
+  background: white;
+  display: block;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  right: 0;
+}
+
+.toggle span:before {
+  top: -6px;
+}
+
+.toggle span:after {
+  bottom: -6px;
+}
+
+.toggle.open span{
+  background-color: transparent;
+}
+
+.toggle.open span:before,
+.toggle.open span:after {
+  top: 0;
+}
+
+.toggle.open span:before {
+  transform: rotate(45deg);
+}
+
+.toggle.open span:after {
+  transform: rotate(-45deg);
+}
+
+ @tailwind utilities;
+ 

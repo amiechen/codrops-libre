@@ -32,6 +32,7 @@ Check out the details on [Codrops](https://tympanus.net/codrops/2018/09/16/freeb
 - [tippy.js](https://atomiks.github.io/tippyjs/)
 - [Tailwind.css](https://tailwindcss.com/)
 - [Shopify Polaris's Icons](https://polaris.shopify.com/)
+- [Shopify](https://shopify.com) (this design is heavily based on Shopify)
 
 ## License
 Use it freely but please do not republish, distribute or sell "as-is". [Read more about our license.](http://tympanus.net/codrops/licensing/)
